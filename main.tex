@@ -1,0 +1,77 @@
+\documentclass[12pt, oneside]{report}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{enumerate}
+
+\usepackage{url}
+\author{}
+
+\setcounter{tocdepth}{1}
+
+\usepackage{hyphenat}
+\usepackage[T1, T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[main=bulgarian, english, japanese]{babel}
+\usepackage{CJKutf8}
+
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{longtable}
+
+\let\cleardoublepage\clearpage
+
+% \usepackage{fontspec}
+% \setmainfont{CMU Serif}
+% \setsansfont{CMU Sans Serif}
+% \setmonofont{CMU Typewriter Text}
+
+% \usepackage{xeCJK}
+% \setCJKmainfont{ipam.ttf}
+% \setCJKsansfont{ipag.ttf}
+
+\selectbglanguage
+\setlocalecaption{bulgarian}{contents}{Съдържание}
+\setlocalecaption{bulgarian}{chaptername}{Глава}
+\usepackage[toc, page, titletoc,title]{appendix}
+\usepackage{pdfpages}
+
+\title{ТРУДОВ РЕЧНИК\\
+\large{Японски и китайски имена, английски, военни и спортни термини}}
+
+\begin{document}
+
+\maketitle
+
+\selectbglanguage
+
+\section*{Благодарности}
+    
+Благодарности за изготвянето на речника: Ragnos и postmortem от Eastern Spirit, KoP3Le7o, DARK RANGER, Alexeev, nightwarrior, Chep\_92, Hristo Lishev, BestRipper, Stone, simo76, Анубис, Phoebes, Ice-Man, D300, elisiaelf, SonGoku, ludoto\_mimi, shtipliiska, danissimo, \-\=\ F\ o\ z\ z\ y\ \=\-, Zaza14, Николай, riburan, ex-cuckoo, kelly, spotbeam, pinko™, kaloo, rburan, fakelini, motleycrue, burndead, milenski, freakazoid, star6inkata, sed, tnt1918, mass\_effect, cheeseus, Скуби Ду, o6ina, Guilty, dkp
+
+\quad
+
+Информацията е събрана в периода 2013-2015 г.
+
+\quad
+
+Графично оформление от Rinto-kun.
+
+\tableofcontents
+
+\listoftables
+
+\include{chapters/imena.tex}
+\include{chapters/obrashteniya.tex}
+\include{chapters/pravopis.tex}
+\include{chapters/kitaiski-dinastii.tex}
+\include{chapters/sport.tex}
+\include{chapters/voenni.tex}
+\include{chapters/idioms.tex}
+\include{chapters/appendix.tex}
+ 
+\end{document}
