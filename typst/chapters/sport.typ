@@ -57,7 +57,7 @@ Oтборът се състои от играчи със следните поз
   caption: [Бейзболни термини],
 )[
   #table(
-    columns: 2,
+    columns: (10em, auto),
     align: (col, row) => (left, left,).at(col),
     inset: 6pt,
     [Термин],
@@ -200,7 +200,7 @@ Oтборът се състои от играчи със следните поз
 == Бокс
 <бокс>
 #figure(caption:[Термини от бокса])[#table(
-    columns: 2,
+    columns: (10em,auto),
     align: (col, row) => (left, left,).at(col),
     inset: 6pt,
     [*Термин*],
@@ -363,7 +363,7 @@ Oтборът се състои от играчи със следните поз
 #figure(
   caption: [Термини от футбола]
 )[#table(
-    columns: 2,
+    columns: (10em,auto),
     align: (col, row) => (left, left,).at(col),
     inset: 6pt,
     [*Термин*],
